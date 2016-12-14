@@ -50,7 +50,7 @@ git init
 touch mate.py -létrehoz python file
 git add . (vagy file neve)
 git commit (git commit -m “ szöveg“
-
+git commit --amend -újra megcsinálja az utlosó commitot
 
 
 clone   a   repo. 

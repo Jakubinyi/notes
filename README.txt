@@ -37,11 +37,17 @@ Using   print   statements,   (advanced)   debugging   via   VS   Code,   breakp
 
 GIT 
 Usage   in   terminal: 
-git log – napló 
+git log – naplózza a commitokat 
 git status
 man git-<parancs neve>
 touch mate.py
 rm mate.py
+
+ctrl + z -lerakja háttérbe a futó processt
+jobs  -kilistázza a futó alkalmazásokat
+fg  -visszahozza az utolsó háttérbe rakott alkalmazást
+fg 1 vagy fg 2 vagy stb (azt hozza be, ahol a + jel van)
+nano-ban ctrl + O a mentés
 
 Create a repo:
 mkdir folder

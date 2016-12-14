@@ -152,6 +152,16 @@ with open(file_name, "w") as data_file:
     for element in output_list:
        data_file.write(element + "\n")
 
+Import functions:
+from file_for_import import printit  # printit függvény importálása
+from file_for_import import * # az összes függvény importálása 
+
+printit("TTT") # simán meg lehet hívni így a függvényt
+
+
+import file_for_import #itt a python file-t importálja
+
+file_for_import.printit("it")  #a függvény hívásnál hivatkozni kell a python filera
 
 
 Debugging/testing your code.

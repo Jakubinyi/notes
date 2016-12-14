@@ -30,8 +30,38 @@ Built   i   n   p
 Strings:   Are   immutable,   search,   get   substring   (slice),   length,   strings   as   lists. 
 Numbers:   int,   float Built   i   n   m
   ethods 
-Print,   input,   range,   random,   file   I/O 
-Debugging/testing   your   c   ode 
+Print,   input,   range,   random,   
+
+File   I/O:
+# file-ból olvas, listába tölt
+my_file = open("testfile.txt", "r")
+output_list = []
+for line in my_file:
+    output_list.append(line)
+my_file.close()
+
+
+# file-ba ír, lista elemeit soronkánt
+my_file = open("testfile.txt", "w")
+for line in output_list:
+    my_file.write(line + "\n")
+
+
+#With statement:
+file_name = "testfile.txt"
+output_list = []
+
+with open(file_name, "r") as data_file:
+    for line in data_file:
+        output_list.append(line)
+
+with open(file_name, "w") as data_file:
+    for element in output_list:
+       data_file.write(element + "\n")
+
+
+
+Debugging/testing   your   code.
 Using   print   statements,   (advanced)   debugging   via   VS   Code,   breakpoints.  
 
 

@@ -57,6 +57,8 @@ touch mate.py -létrehoz python file
 git add . (vagy file neve)
 git commit (git commit -m “ szöveg“
 git commit --amend -újra megcsinálja az utlosó commitot
+git remote add origin <repo URL>
+git push origin master  -hova mit
 
 
 clone   a   repo. 

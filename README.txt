@@ -61,7 +61,9 @@ git remote add origin <repo URL>
 git push origin master  -hova mit
 
 
-clone   a   repo. 
+Clone   a   repo:
+git clone <URL name>
+
 Pull,   add,   commit,   push. 
 Best   practices   (commit   messages,   do   not   use   file   upload!,   always   pull   before   push) 
 Advanced:   How   to   handle   merge   conflict   (no   need   to   do   Git   merge,   just   do   something   that 

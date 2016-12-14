@@ -24,15 +24,9 @@ How to define them, input parameters, return values. Advanced: Call stack.
 
 Built in data structures 
 
-Lists/Arrays:   
-How   to   add element:
-my_list.append("string")
-    
-Remove elements:
-
+Lists/Arrays:
 
 mylist = [[1, 2, 3], [4, 5, 6, 7], [8, 9, 10]]
-"""
 for element in mylist:
     if len(element) == 3:
         print(element)
@@ -41,7 +35,11 @@ for element in mylist:
 for index in range(len(mylist)):
     if len(mylist[index]) == 3:print("Tizesek: {}".format(ten))
         print(mylist[index])
-"""
+
+How   to   add element:
+my_list.append("string")
+
+Remove elements:
 
 print(mylist)
 #érték szerint megadva törli a lista elemét

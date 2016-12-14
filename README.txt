@@ -1,23 +1,27 @@
-﻿First   BFA   topics 
-Python   basics 
-Clean   c   ode 
-Naming   conventions,   clean   code   DOs   and   DON’Ts   (indentation,   comments,   do   not   name   2 
-variables/function   the   same   way,   no   code   outside   functions,   meaningful   names,   always 
-use   English,   use   globals   only   if   needed) 
-Using   v   ariables  
-Variable   types,   variable   operations.   Immutable   vs.   mutable,   passing   by   value   and 
-reference.   Casting   variables   ­   when/why.   Meaning   of   NameError:   XXX   is   not   defined. 
-Scope   o
-  f   v   ariables 
-Global   vs   function   scope.   How   to   read/write   a   global   variable? 
-Loops,   c   ontrol   s   tatements,   o
-  perators 
-for   and   while   (break,   continue),   if­elif­else.   Single   line   control   statements  
-Operators:   not,   or,   and,   >,   <,   >=,   <=,   ==,   !=,   %   (modulo),   //,   +,   ­,   *,   / 
-Operators   and   types   (  most     operators   are   defined   for   the   same   type). 
-Subscript   operator,   []. 
+First BFA topics 
+
+Python basics 
+
+Clean code:
+Naming conventions, clean code DOs and DON’Ts (indentation, comments, do not name 2 variables/function the same way, no  code outside functions, meaningful names, always use English, use globals only if needed) 
+Using variables  
+
+Variable types, variable operations. Immutable vs. mutable, passing by value and reference. Casting variables when/why.   Meaning of NameError: XXX is not defined. 
+
+Scope of variables 
+
+Global vs function scope. How to read/write a global variable? 
+Loops, control statements, operators:
+
+for and while (break, continue), if elif else. Single line control statements  
+Operators: not, or, and, >, <, >=, <=, ==, !=, % (modulo), //, +, -, *, / 
+Operators and types (most   operators are defined for the same type). 
+Subscript operator, []. 
+
 Functions/Methods 
-How   to   define   them,   input   parameters,   return   values.   Advanced:   Call   stack.  
+
+How to define them, input parameters, return values. Advanced: Call stack.  
+
 Built in data structures 
 
 Lists/Arrays:   
@@ -35,7 +39,7 @@ for element in mylist:
 
 
 for index in range(len(mylist)):
-    if len(mylist[index]) == 3:
+    if len(mylist[index]) == 3:print("Tizesek: {}".format(ten))
         print(mylist[index])
 """
 
@@ -90,8 +94,8 @@ Get substring (slice):
 'Hel'
 >>> s[2:5]
 
-.split()
-.strip()
+.strip() -leveszi a zárójelben lévőt
+.split() -egységekre bontja a zárójelben lévők tördelésével
 
 Length:
 len(string)
@@ -102,9 +106,10 @@ Numbers: int, float
 
 Built in methods:
 Print:
+print("Tizesek: {}".format(ten))
 
 Input:
-input()
+input("give it:")  -mindig stringet kéár be, ha intet akarunka, akkor int(input())
 
 Range:  
 #generátor függvény

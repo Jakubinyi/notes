@@ -18,19 +18,80 @@ Operators   and   types   (  most     operators   are   defined   for   the   sa
 Subscript   operator,   []. 
 Functions/Methods 
 How   to   define   them,   input   parameters,   return   values.   Advanced:   Call   stack.  
-Built   i   n   d
-  ata   s   tructures 
-Lists/Arrays:   How   to   add,   remove   elements,  
-lists,   sorting 
-Dictionaries:   What   are   keys,   values,   how   to   check   if   it   contains   an   element.   Retrieve   an 
-element   by   a   key 
+Built in data structures 
+
+Lists/Arrays:   
+How   to   add element:
+my_list.append("string")
+    
+Remove elements:
+
+
+mylist = [[1, 2, 3], [4, 5, 6, 7], [8, 9, 10]]
+"""
+for element in mylist:
+    if len(element) == 3:
+        print(element)
+
+
+for index in range(len(mylist)):
+    if len(mylist[index]) == 3:
+        print(mylist[index])
+"""
+
+print(mylist)
+#érték szerint megadva törli a lista elemét
+mylist.remove([1,2,3]) 
+print(mylist)
+#index szerint megadva törli a lista elemét
+mylist.pop(0)
+
+
+
+lists,   sorting
+
+
+Dictionaries:   
+What are keys, values, how to check if it contains an element. 
+if key in dictionary:   #kell a . keys?
+
+Retrieve an element by a key.
+dictionary["ember"]
+
+dictionary = {"ember" : 10, "allat" : 5, "haz" : 2}
+
+for key, value in dictionary.items():
+    print(key, value)
+
+for key in dictionary.keys():
+    print(key)
+
+for value in dictionary.values():
+    print(value)
+
 Tuples:   Immutable  
-Built   i   n   p
-  rimitive   t   ypes 
-Strings:   Are   immutable,   search,   get   substring   (slice),   length,   strings   as   lists. 
-Numbers:   int,   float Built   i   n   m
-  ethods 
-Print,   input,   range,   random,   
+Built in primitive types 
+Strings: Are immutable, search, get substring (slice), length, strings as ists. 
+Numbers: int, float 
+
+Built in methods:
+Print:
+
+Input:
+input()
+
+Range:  
+#generátor függvény
+számsorozatot állít elő
+range(start, stop[, step])
+
+Random:
+import random
+
+random.randint(0,100) #itt benne van a 0 és a 100 is
+random.randrange(start, stop[, step])  #itt lépészámot is lehet megadni, de nincs benne a végpont
+random.random() #fixen 0 és 1 között floatot generál
+
 
 File   I/O:
 # file-ból olvas, listába tölt
@@ -62,8 +123,8 @@ with open(file_name, "w") as data_file:
 
 
 
-Debugging/testing   your   code.
-Using   print   statements,   (advanced)   debugging   via   VS   Code,   breakpoints.  
+Debugging/testing your code.
+Using print statements, (advanced) debugging via VS Code, breakpoints.  
 
 
 GIT 

@@ -70,8 +70,34 @@ for value in dictionary.values():
     print(value)
 
 Tuples:   Immutable  
+
 Built in primitive types 
-Strings: Are immutable, search, get substring (slice), length, strings as ists. 
+Strings: Are immutable 
+
+Search:
+str1 = "this is final exam!!!"  
+str2 = "exam" 
+
+print(str1.find(str2))
+print(str1.find(str2, 10))
+print(str1.find(str2, 20))
+
+Get substring (slice):
+ s = 'Hello, everybody!'
+>>> s[0]
+'H'
+>>> s[:3]
+'Hel'
+>>> s[2:5]
+
+.split()
+.strip()
+
+Length:
+len(string)
+
+Strings as lists. 
+
 Numbers: int, float 
 
 Built in methods:
@@ -151,7 +177,7 @@ git commit (git commit -m “ szöveg“
 git commit --amend -újra megcsinálja az utlosó commitot
 git remote add origin <repo URL>
 git push origin master  -hova mit
-
+>>> s[0]
 
 Clone   a   repo:
 git clone <URL name>

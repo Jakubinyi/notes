@@ -41,10 +41,11 @@ for line in my_file:
 my_file.close()
 
 
-# file-ba ír, lista elemeit soronkánt
+# file-ba ír, lista elemeit soronként
 my_file = open("testfile.txt", "w")
 for line in output_list:
     my_file.write(line + "\n")
+my_file.close()
 
 
 #With statement:

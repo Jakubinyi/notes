@@ -48,7 +48,7 @@ for line in output_list:
 my_file.close()
 
 
-#With statement:
+#With statement, bezárja magát:
 file_name = "testfile.txt"
 output_list = []
 

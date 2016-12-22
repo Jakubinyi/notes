@@ -39,6 +39,9 @@ for index in range(len(mylist)):
 How   to   add element:
 my_list.append("string")
 
+words.insert(2, "is")
+
+
 Remove elements:
 
 print(mylist)
@@ -50,7 +53,15 @@ mylist.pop(0)
 
 
 
-lists,   sorting
+lists,   sorting:
+max(list): Returns the list item with the maximum value
+min(list): Returns the list item with minimum value
+list.reverse()
+
+
+list.count(obj): Returns a count of how many times an item occurs in a list
+letters.index('r'))
+
 
 
 Dictionaries:   
@@ -113,6 +124,7 @@ Range:
 #generátor függvény
 számsorozatot állít elő
 range(start, stop[, step])
+numbers = list(range(10))   #[0,1,2,3...9]
 
 Random:
 import random

@@ -149,6 +149,16 @@ for line in output_list:
     my_file.write(line + "\n")
 my_file.close()
 
+CSV file input:
+import csv
+
+people = []
+with open(file_name, "r") as csvfile:
+    csv_file = csv.reader(csvfile)
+    for row in csv_file:
+        person = Person(row[0], row[1])
+        people.append(person)
+
 
 #With statement, bezárja magát:
 file_name = "testfile.txt"

@@ -221,4 +221,19 @@ Pull,   add,   commit,   push.
 Best   practices   (commit   messages,   do   not   use   file   upload!,   always   pull   before   push) 
 Advanced:   How   to   handle   merge   conflict   (no   need   to   do   Git   merge,   just   do   something   that 
 works,   e.g.   Git   reset,   then   push   your   changes) 
- 
+
+
+
+Everything up-to-date problem:
+(git remote origin
+git remote delete origin
+git remote remove origin
+git remote add origin <gitrepo url>
+git push --force)
+
+git branch --unset-upstream
+git push
+git push --force
+git push --force origin master
+
+

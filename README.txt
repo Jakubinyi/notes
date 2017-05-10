@@ -236,4 +236,8 @@ git push
 git push --force
 git push --force origin master
 
+-------------------------------------------------------------------------------
+Design patterns:
+https://github.com/kamranahmedse/design-patterns-for-humans
+
 
